@@ -1,0 +1,11 @@
+README.md
+setup.py
+DetectorPlanos/__init__.py
+DetectorPlanos/detection.py
+DetectorPlanos/geometry.py
+DetectorPlanos/preprocessing.py
+DetectorPlanos.egg-info/PKG-INFO
+DetectorPlanos.egg-info/SOURCES.txt
+DetectorPlanos.egg-info/dependency_links.txt
+DetectorPlanos.egg-info/requires.txt
+DetectorPlanos.egg-info/top_level.txt
