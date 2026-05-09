@@ -24,10 +24,19 @@ from DetectorPlanos.geometry import *
 # CARGAR IMAGEN
 # ============================================================
 
-ruta = "plano.jpeg"
+# ============================================================
+# CARGAR IMAGEN
+# ============================================================
+
+nombre = input("Ingresa el nombre de la imagen: ")
+
+ruta = "Ejemplos/" + nombre
 
 img = cv2.imread(ruta)
 
+if img is None:
+    print("Error: no se pudo cargar la imagen")
+    exit()
 # ============================================================
 # PREPROCESAMIENTO
 # ============================================================
