@@ -30,13 +30,13 @@ from DetectorPlanos.geometry import *
 
 nombre = input("Ingresa el nombre de la imagen: ")
 
-ruta = "Ejemplos/" + nombre
+ruta = os.path.join(os.path.dirname(__file__), nombre)
 
 img = cv2.imread(ruta)
 
 if img is None:
     print("Error: no se pudo cargar la imagen")
-    exit()
+    sys.exit()
 # ============================================================
 # PREPROCESAMIENTO
 # ============================================================
